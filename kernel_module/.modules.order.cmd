@@ -1,0 +1,1 @@
+cmd_/home/seed/Labsetup/Files/kernel_module/modules.order := {   echo /home/seed/Labsetup/Files/kernel_module/hello.ko; :; } | awk '!x[$$0]++' - > /home/seed/Labsetup/Files/kernel_module/modules.order
